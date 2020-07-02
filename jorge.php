@@ -45,7 +45,7 @@ include("conexion.php");
     Direccion:<input name="direccion"><br />
     Correo:<input name="correo"><br />
     Telefono:<input name="telefono"><br />
-
+    Genero:<input name="telefono"><br />
 
  <h3>Productos</h3>
 
