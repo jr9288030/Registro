@@ -217,19 +217,19 @@ include("conexion.php");
 
 <?php
 if($_POST){
-    $i=$_POST['id_funcionalidad'];
-    $n=$_POST['nombre'];
-    $a=$_POST['apellido'];
-    $c=$_POST['cedula'];
-    $e=$_POST['edad'];
-    $d=$_POST['direccion'];
-    $l=$_POST['correo'];
-    $t=$_POST['telefono'];
-    $g=$_POST['arroz'];
-    $x=$_POST['azucar'];
-    $y=$_POST['agua'];
-    $z=$_POST['sal'];
-    $v=$_POST['aceite'];
+    $=$_POST['id_funcionalidad'];
+    $=$_POST['nombre'];
+    $=$_POST['apellido'];
+    $=$_POST['cedula'];
+    $=$_POST['edad'];
+    $=$_POST['direccion'];
+    $=$_POST['correo'];
+    $=$_POST['telefono'];
+    $=$_POST['arroz'];
+    $=$_POST['azucar'];
+    $=$_POST['agua'];
+    $=$_POST['sal'];
+    $=$_POST['aceite'];
 
 
 
@@ -243,7 +243,7 @@ if($_POST){
 
     
     
-    mysql_query("insert into persona(id_funcionalidad,nombre,apellido,cedula,edad,direccion,correo,telefono,arroz,azucar,agua,sal,aceite,latitud,longitud)values('$i','$n','$a','$c','$e','$d','$l','$t','$g','$x','$y','$z','$v','$p','$q')") or die(mysql_error());
+    mysql_query("insert into persona(id_funcionalidad,nombre,apellido,cedula,edad,direcc.correo,o,arroz,azucar,agua,sal,aceite,latitud,longitud)values('$i','$n','$a','$c','$e','$d','$l','$t','$g')") or die(mysql_error());
     echo "<h2>Dato Guardado</h2>";
    }
 ?>
