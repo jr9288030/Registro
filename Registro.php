@@ -45,26 +45,10 @@ include("conexion.php");
 
     <body>
     	<div id="menu">
-    		<ul>
-    			
-
-              >
-                
-                <li><a href="inicio.php">inicio</a></li>
-                <li><a href="#">Registro y Asignacion</a></li>
-                <li><a href="paginas/localizacion.php">localizacion</a></li>
-                <li><a href="paginas/mama.php">Galeria</a></li>
-                <li><a href="paginas/contacto.php">contacto</a></li>
+    		
 
 
-
-
-
-
-
-
-
-             </ul>
+             
        </div>
 
 
